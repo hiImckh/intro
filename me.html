@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Chien kun huang</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            color: #333;
+            min-height: 100vh;
+            padding: 30px 15px;
+        }
+
+        .container {
+            max-width: 750px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            background: #fff;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 55px;
+        }
+
+        section {
+            padding: 25px 30px;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 18px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .info p {
+            font-size: 17px;
+            margin: 13px 0;
+            line-height: 1.6;
+        }
+
+        .hobbies {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .hobby {
+            background: #f1f3ff;
+            border-radius: 12px;
+            text-align: center;
+            padding: 20px 10px;
+            transition: 0.3s;
+        }
+
+        .hobby:hover {
+            transform: translateY(-5px);
+            background: #e2e7ff;
+        }
+
+        .hobby span {
+            font-size: 35px;
+        }
+
+        .hobby p {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .about {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        footer {
+            background: #667eea;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 500px) {
+            .hobbies {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="avatar">😊</div>
+            <h1>Xin chào! Tôi là Chien kun huang</h1>
+            <p>Chào mừng bạn đến với trang web cá nhân của tôi!</p>
+        </header>
+
+        <section class="info">
+            <h2>👤 Thông tin cá nhân</h2>
+            <p><strong>Họ và tên:</strong> Chien kun huang</p>
+            <p><strong>Năm sinh:</strong> 2005</p>
+            <p><strong>Nơi sinh:</strong> Hà Nội, Việt Nam</p>
+        </section>
+
+        <section>
+            <h2>❤️ Sở thích của tôi</h2>
+
+            <div class="hobbies">
+                <div class="hobby">
+                    <span>🎣</span>
+                    <p>Câu cá</p>
+                </div>
+
+                <div class="hobby">
+                    <span>🎬</span>
+                    <p>Xem phim Hàn Quốc</p>
+                </div>
+
+                <div class="hobby">
+                    <span>🏊</span>
+                    <p>Bơi lội</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>✨ Đôi lời về bản thân</h2>
+            <p class="about">
+                Xin chào mọi người! Tôi là Chien kun huang,
+                sinh ra tại Hà Nội vào năm 2005.
+                Tôi là người yêu thích những hoạt động giải trí
+                và khám phá những điều thú vị trong cuộc sống.
+                Tôi đặc biệt thích câu cá, xem phim Hàn Quốc
+                và bơi lội. Rất vui được làm quen với tất cả mọi người!
+            </p>
+        </section>
+
+        <footer>
+            <p>© 2026 - Trang web cá nhân của Chien kun huang</p>
+            <p>Cảm ơn bạn đã ghé thăm! ❤️</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
